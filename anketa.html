@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>anketa</title>
+	<link rel="stylesheet" href="stil2.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Bebas+Neue
+&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+<form action="">
+<fieldset>
+<legend><strong>Obavezni podatci:</strong></legend>
+Ime: <input type="text" name="ime" size="35"> <br>
+Prezime: <input type="text" name="prezime" size="30"> <br>
+Datum rođenja: <input type="date" name="rođendan">
+</fieldset>
+<fieldset>
+<legend><strong>Koliko često posjećujete našu stranicu?</strong></legend>
+<input type="radio" name="koliko" value="Prvi put sam ovdje">
+Prvi put sam ovdje <br>
+<input type="radio" name="koliko" value="Jednom mjesečno">
+Jednom mjesečno <br>
+<input type="radio" name="koliko" value="Nekoliko puta mjesečno">
+Nekoliko puta mjesečno <br>
+<input type="radio" name="koliko" value="Tjedno">
+Tjedno <br>
+<input type="radio" name="koliko" value="Često, više puta tjedno">
+Često, više puta tjedno <br>
+</fieldset>
+<fieldset>
+<legend><strong>Koji kontinent biste najviše htjeli posjetiti?</strong></legend>
+<label>Izaberite kontinent:</label>
+<select name="kontinent" id="kontinent">
+	<option value="Europa">Europa</option>
+	<option value="Azija">Azija</option>
+	<option value="Sjeverna Amerika">Sjeverna Amerika</option>
+	<option value="Južna Amerika">Južna Amerika</option>
+	<option value="Australija i Oceanija">Australija i Oceanija</option>
+	<option value="Afrika">Afrika</option>
+</select>
+</fieldset>
+<fieldset>
+<label><strong>Odaberite u koje doba godine najviše volite putovati.</strong></label>
+	<input list="godišnje doba" name="godišnje doba">
+	<datalist id="godišnje doba">
+		<option value="ljeto" name="godišnje doba"></option>
+		<option value="jesen" name="godišnje doba"></option>
+		<option value="zima" name="godišnje doba"></option>
+		<option value="proljeće" name="godišnje doba"></option>
+	</datalist>
+</fieldset>
+<fieldset>
+<label for="phone">Unsesite broj mobitela</label><br><br>
+<input type="tel" id="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+</fieldset>
+<p>
+	Ukoliko biste htjeli dobivati mailove svaki tjedan o novim ponudama, pretplatite se na naš <em>Newsletter</em>.
+</p>
+<fieldset>
+<label>E-mail:</label>
+<input type="email" name="email">
+<input type="submit" value="Pretplati">
+</fieldset>
+<input type= "reset" value= "Poništi">
+<input type= "submit" value="Prihvati"><br><br>
+<input type= "button" value="Klikni me:)" onclick="alert('Hvala što ste ispunili anketu')">
+
+</form>
+
+</body>
+</html>

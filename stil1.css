@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #96DED1;
+}
+h1 {
+	font-family: "Arima", sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: <weight>;
+    text-align: left; 
+	color: #71797E;
+    
+}
+h2 {
+	font-family: "Arima", sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: <weight>;
+    text-align: left; 
+	color: #71797E;
+    
+}
+<style> 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+}
+
+
+li {
+  float: left;
+  font-family: "Verdana", Verdana, Geneva, sans-serif;
+  line-height: 20px;
+  width: 200px;
+  background-color: #008080;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  background-color: #96DED1;
+}
+
+</style>
+ol{
+	font-family: "Bebas Neue", sans-serif;
+}
+p{
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 25px;
+}
+span {
+	font-weight:bold;
+	color:#71797E;
+	font-style:italic;
+	font-family:"Bebas Neue", sans-serif;
+}
+img {
+  float: right;
+}
+.tablica1{
+	width:400px;
+	height:495px;
+	border:5px ridge white;
+	border-radius:5px;
+	background-color:rgb(248, 172, 193);
+	padding:1px;
+	margin:7px;
+	border-collapse:collapse;
+}
+.tablica1 tr, .tablica1 td, .tablica1 th{
+	border:2px solid white;
+}
+tbody tr:nth-child(odd){
+	background-color: rgb(238, 194, 200);
+}
+thead th{
+	background-color:rgb(235, 141, 189);
+	border:5px outset rgb(235, 141, 189);
+}
+div.absolute1 {
+	width:520px;
+	height:35px;
+	position:absolute;
+	left:470px;
+	top:160px;
+	border: 3px solid white;
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 25px;
+	margin:15px;
+	text-align: center;
+}
+div.absolute2 {
+	width:400px;
+	height:35px;
+	position:absolute;
+	left:20px;
+	top:220px;
+	border: 3px solid white;
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 25px;
+	margin:15px;
+	text-align: center;
+}
+div.absolute3 {
+	width:400px;
+	height:35px;
+	position:absolute;
+	right:20px;
+	top:220px;
+	border: 3px solid white;
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 25px;
+	margin:15px;
+	text-align: center;
+}
+div.relative1 {
+	width:670px;
+	height:650px;
+	position:relative;
+	top:230px;
+	float: left;
+	border: 3px solid white;
+	font-family: "Arima", sans-serif;
+	font-size: 20px;
+}
+div.relative2 {
+	width:670px;
+	height:650px;
+	position:relative;
+	top:230px;
+	float: right;
+	border: 3px solid white;
+	font-family: "Arima", sans-serif;
+	font-size: 20px;
+}
+div.fixed {
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+div.absolute4 {
+	width:1500px;
+	height:90px;
+	position:absolute;
+	top:1200px;
+	bottom:0px;
+	border: 3px solid white;
+	font-family: "Arima", sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+img.a {
+  vertical-align: baseline;
+}
+img.b {
+  float: left;
+  top:1300px;
+}
+
+div.clear {
+	clear: left;
+	top:1300px;
+	width:1500px;
+	height:60px;
+	position:absolute;
+	bottom:0px;
+	border: 3px solid white;
+	font-family: "Arima", sans-serif;
+	font-size: 20px;
+	text-align: center;
+}

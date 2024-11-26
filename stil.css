@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+a:active {
+  background-color: #C9A9A6;
+}
+a:hover {
+  background-color: #C9A9A6;
+  font-size: 25px;
+}
+body{
+	background-color: #96DED1;
+}
+p {
+   font-family: "Bebas Neue", sans-serif;
+   color: white;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: <weight>;
+   line-height: 25px;
+   width: 1500px;
+   background-color: #008080;
+   padding: 20px;
+   text-align: center; 
+   
+   
+}
+
+h1 {
+	font-family: "Arima", sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: <weight>;
+    text-align: left; 
+	color: #71797E;
+    
+}
+<style> 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  
+}
+
+li {
+  float: left;
+  font-family: "Verdana", Verdana, Geneva, sans-serif;
+  line-height: 20px;
+  width: 210px;
+  background-color: #008080;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  background-color: #96DED1;
+}
+
+</style>
+
+
+
+
+
+
